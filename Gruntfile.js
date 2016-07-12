@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     haml: {
-      one: {
+      dist: {
         files: {
           // 1:1 compile
           'index.html': 'index.haml',
@@ -24,9 +24,9 @@ module.exports = function (grunt) {
     },
     watch: {
       maintask: {
-        files: '**/**.less',
+        files: 'assets/**.less',
         files: '**/**.haml',
-        tasks: ['haml', 'less'],
+        tasks: ['haml', 'less:dev'],
         options: {
           livereload: true,
         },
@@ -34,7 +34,7 @@ module.exports = function (grunt) {
     },
   });
 
-  grunt.loadNpmTasks('grunt-haml');
+  grunt.loadNpmTasks('grunt-haml2html');
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
