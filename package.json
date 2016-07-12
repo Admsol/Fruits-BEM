@@ -1,0 +1,25 @@
+{
+  "name": "fbem",
+  "version": "1.0.0",
+  "description": "BEM project with some beautiful fruits.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-haml": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Admsol/Fruits-BEM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Admsol/Fruits-BEM/issues"
+  },
+  "homepage": "https://github.com/Admsol/Fruits-BEM#readme"
+}
