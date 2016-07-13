@@ -1,4 +1,110 @@
+@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0px !important;
+  padding: 0px !important;
 }
+
+.main-division .heading-section__title__text {
+  text-align: center;
+}
+.main-division {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 767px) {
+}
+.main-division .heading-section__presentation__picture img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.main-division {
+  padding-top: 100px;
+  background-color: #00c161;
+  height: 530px;
+}
+.main-division .heading-section__title__text {
+  font-size: 100px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0px;
+  padding: 50px;
+  color: #076a11;
+}
+.main-division .heading-section__title__text--secondary {
+  color: #eaf1a3;
+}
+.main-division .heading-section__presentation__picture img {
+  display: block;
+  width: 60%;
+  margin-bottom: 50px;
+  animation-duration: 6s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+.main-division--bear {
+  background-color: #f9ff00;
+}
+.main-division--bear .heading-section__title__text {
+  color: #ff7a00;
+}
+.main-division--bear .heading-section__title__text--secondary {
+  font-size: 100px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0px;
+  padding: 50px;
+  font-size: 40px;
+  padding: 0px;
+  color: rgba(255, 122, 0, 0.49);
+}
+.main-division--bear .heading-section__presentation__picture img {
+  margin-top: -390px;
+  width: 85%;
+  margin-bottom: 0px;
+  animation-duration: 50s;
+}
+.main-division--last {
+  background-color: skyblue;
+  height: 605px;
+}
+
+/* Modules */
 

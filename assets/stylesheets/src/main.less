@@ -1,9 +1,62 @@
-@import (reference) "../../../bower_components/less/boostrap";
-
+@import (reference) '../../../bower_components/bootstrap/less/bootstrap.less';
+@import 'variables';
+@import 'elements.main.less';
+@import (reference) 'modules.main.less';
 .main-division {
+  padding-top: 100px;
+  &:extend(.container-fluid);
+  background-color: @soft-green;
+  height: 530px;
   .heading-section__title {
     &__text {
       &:extend(.text-center);
+      .normalize-typo-100();
+      color: @green;
+      &--secondary {
+        color: @sub-green;
+      }
     }
   }
+  .heading-section__presentation {
+    &__picture {
+      img {
+        &:extend(.center-block);
+        display: block;
+        width: 60%;
+        margin-bottom: 50px;
+        animation-duration: 6s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+      }
+    }
+  }
+}
+
+.main-division--bear {
+  background-color: #f9ff00;
+  .heading-section__title {
+    &__text {
+      color: rgb(255, 122, 0);
+      &--secondary {
+        .normalize-typo-40();
+        padding: 0px;
+        color: rgba(255, 122, 0, 0.49);
+      }
+    }
+  }
+  .heading-section__presentation {
+    &__picture {
+      img {
+        margin-top: -390px;
+        width: 85%;
+        margin-bottom: 0px;
+        animation-duration: 50s;
+      }
+    }
+  }
+}
+
+.main-division--last {
+  background-color: skyblue;
+  height: 605px;
 }

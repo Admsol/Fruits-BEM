@@ -1,0 +1,30 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:content => "width=device-width", "initial-scale" => "1.0", :name => "viewport"}
+    %link{:href => "bower_components/animate.css/animate.min.css", :rel => "stylesheet"}
+    %link{:href => "assets/stylesheets/dist/app.css", :rel => "stylesheet"}
+    %link{:href => "https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700", :rel => "stylesheet", :type => "text/css"}
+
+    %title Fruits BEM
+  %body
+    .main-division
+      .heading-section__title
+        %h1.heading-section__title__text
+          FRUITY
+          %span.heading-section__title__text--secondary
+            FRUIT
+      .heading-section__presentation
+        .heading-section__presentation__picture
+          %img.animated.bounce{:src => "assets/img/fruit-lemon.png"}
+    .main-division.main-division--bear
+      .heading-section__title
+        %h1.heading-section__title__text
+          BEARY
+          %span.heading-section__title__text--secondary
+            UNLOGICAL BEAR
+      .heading-section__presentation
+        .heading-section__presentation__picture
+          %img.animated.wobble{:src => "assets/img/bear.png"}
+    .main-division.main-division--last
